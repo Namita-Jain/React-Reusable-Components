@@ -1,0 +1,28 @@
+{
+    "name": "React Reusable Library",
+    "private": true,
+    "version": "0.1.0",
+    "description": "React component library",
+    "license": "UNLICENSED",
+    "author": "Namita Jain",
+    "homepage": "https://https://github.com/Namita-Jain/React-Reusable-Component",
+    "bugs": {
+        "url": "https://https://github.com/Namita-Jain/React-Reusable-Component/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://https://github.com/Namita-Jain/React-Reusable-Component"
+    },
+    "devDependencies": {
+        "lerna": "^3.22.1"
+    },
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "scripts": {
+        "build": "lerna run build",
+        "test": "lerna run test"
+    }
+}
